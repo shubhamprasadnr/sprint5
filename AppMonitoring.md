@@ -71,7 +71,6 @@ Designing a reliable monitoring system involves not just collecting data but set
 
 ---
 
-_🔧 Keep your systems observable. If you can't measure it, you can't improve it._
 
 ##  Contact Information
 
