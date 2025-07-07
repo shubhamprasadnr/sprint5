@@ -78,25 +78,6 @@ Alerts are grouped by:
 
 This avoids alert storms during outages and provides context-aware notifications.
 
-### 🔀 **Routing Example (in `alertmanager.yml`)**
-
-```yaml
-route:
-  group_by: ['alertname', 'job']
-  group_wait: 30s
-  group_interval: 5m
-  repeat_interval: 4h
-  receiver: 'default-notification'
-
-  routes:
-    - match:
-        severity: 'critical'
-      receiver: 'pagerduty-team'
-
-    - match:
-        severity: 'warning'
-      receiver: 'slack-dev-team'
----
 ##  Contact Information
 
 | Name | Email Address |
