@@ -96,6 +96,7 @@ route:
     - match:
         severity: 'warning'
       receiver: 'slack-dev-team'
+-----
 
 ##  Contact Information
 
