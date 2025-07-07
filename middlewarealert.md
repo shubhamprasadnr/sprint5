@@ -26,7 +26,7 @@ This document defines Redis-specific **alert rules**, **severity levels**, **not
 
 ---
 
-## 🎯 Objectives
+### 🎯 Objectives
 
 - Detect Redis performance and availability issues early
 - Define actionable alerts with severity
@@ -35,7 +35,7 @@ This document defines Redis-specific **alert rules**, **severity levels**, **not
 
 ---
 
-## ⚠️ Redis Alert Rules
+### ⚠️ Redis Alert Rules
 
 | **Alert Name**             | **Condition (PromQL or Description)**                             | **Severity** | **Description**                                 |
 |----------------------------|--------------------------------------------------------------------|--------------|-------------------------------------------------|
@@ -52,7 +52,7 @@ This document defines Redis-specific **alert rules**, **severity levels**, **not
 
 ---
 
-## 🛑 Severity Levels
+### 🛑 Severity Levels
 
 | **Severity** | **Definition**                                         | **Action Required**         |
 |--------------|--------------------------------------------------------|-----------------------------|
@@ -62,7 +62,7 @@ This document defines Redis-specific **alert rules**, **severity levels**, **not
 
 ---
 
-## 📨 Notification Channels
+### 📨 Notification Channels
 
 | **Channel**        | **Used For Severities** | **Tool/Platform**         | **Purpose**                      |
 |--------------------|--------------------------|-----------------------------|----------------------------------|
@@ -73,7 +73,7 @@ This document defines Redis-specific **alert rules**, **severity levels**, **not
 
 ---
 
-## 📈 Alert Routing Example (Alertmanager)
+### 📈 Alert Routing Example (Alertmanager)
 
 ```yaml
 route:
@@ -96,7 +96,7 @@ route:
         severity: 'info'
       receiver: 'email-infra-team'
 ```
-## 🆘 Escalation Process
+### 🆘 Escalation Process
 
 | **Time Elapsed** | **Action**                        | **Responsible**         |
 |------------------|-----------------------------------|--------------------------|
@@ -105,7 +105,7 @@ route:
 | +30 min          | Escalate to SRE Manager           | Infra/SRE Manager        |
 | +1 hr            | Trigger incident call             | All stakeholders         |
 
-##  Contact Information
+###  Contact Information
 
 | Name | Email Address |
 |------|---------------|
