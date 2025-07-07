@@ -1,7 +1,7 @@
 # 🚨 Alerting Rules & Process for Redis Monitoring
 | Author  | Created on | Version   | Last Edited On | Comment  | Reviewer |
 |---------|------------|-----------|----------------|-------------------|---------------|
-| Shubham | 07-07-25   |  version1| 07-07-25       | Internal Review    |Siddhath |
+| Shubham | 07-07-25   |  version1| 07-07-25       | Internal Review    |Siddharth |
 | Shubham | 07-07-25  |  version1|-   | L0  Review  | Gaurav Singla |
 | Shubham | 07-07-25  |  version1| -     | L1  Review | Rahul Gupta |
 | Shubham | 07-07-25   |  version1| -      | L2  Review  | Mahesh Kumar|
