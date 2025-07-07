@@ -1,26 +1,26 @@
-# 🚀 Deployment Strategies Comparison
+#  Deployment Strategies Comparison
 
 | Author  | Created on | Version   | Last Edited On | Comment  | Reviewer |
 |---------|------------|-----------|----------------|-------------------|---------------|
-| Shubham | 07-07-25   |  version1| 07-07-25       | Internal Review    |Siddhath |
+| Shubham | 07-07-25   |  version1| 07-07-25       | Internal Review    |Siddharth |
 | Shubham | 07-07-25  |  version1|-   | L0  Review  | Gaurav Singla |
 | Shubham | 07-07-25  |  version1| -     | L1  Review | Rahul Gupta |
 | Shubham | 07-07-25   |  version1| -      | L2  Review  | Mahesh Kumar|
 
 
-This document compares **Rolling**, **Blue/Green**, and **Canary** deployment strategies including definitions, pros, cons, and recommended use cases.
 
----
 
-## 📚 Table of Contents
+##  Table of Contents
 - [ Comparison Table](#-comparison-table)
 - [ Pros and  Cons](#-pros-and--cons)
 - [Recommendations](#-recommendations)
 - [Contact Information](#-contact-information)
 
 ---
+This document compares **Rolling**, **Blue/Green**, and **Canary** deployment strategies including definitions, pros, cons, and recommended use cases.
 
-## 📊 Comparison Table
+---
+### Comparison Table
 
 | **Criteria**               | **Rolling Deployment**                                      | **Blue/Green Deployment**                                     | **Canary Deployment**                                           |
 |---------------------------|--------------------------------------------------------------|----------------------------------------------------------------|----------------------------------------------------------------|
@@ -39,7 +39,7 @@ This document compares **Rolling**, **Blue/Green**, and **Canary** deployment st
 
 ---
 
-## ✅ Pros and ❌ Cons
+###  Pros and  Cons
 
 | **Strategy**     | ✅ **Pros**                                                                 | ❌ **Cons**                                                                 |
 |------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ This document compares **Rolling**, **Blue/Green**, and **Canary** deployment st
 
 ---
 
-## 📝 Recommendations
+### Recommendations
 
 | **Use Case Scenario**                                  | **Recommended Strategy** |
 |--------------------------------------------------------|---------------------------|
@@ -60,7 +60,7 @@ This document compares **Rolling**, **Blue/Green**, and **Canary** deployment st
 | Instant rollback with separate prod/stage environments | Blue/Green               |
 | Safe rollout with real user feedback                   | Canary                   |
 
-##  Contact Information
+###  Contact Information
 
 | Name | Email Address |
 |------|---------------|
